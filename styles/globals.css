@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+}
+
+* {
+  direction: rtl !important;
+}
+
+body {
+  margin: 0;
+  font-family: "DroidArabicKufiRegular", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  transition-duration: 500ms;
+}
+a:hover {
+  color: rgb(249 115 22);
+}
+
+#hero {
+  background: url("./../public/imgs/hero.webp");
+  background-size: cover;
+}
+
+footer {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url("./../public/imgs/footer.webp"),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-blend-mode: overlay;
+}
+
+#com-projects {
+  max-width: 1600px;
+  min-height: 25rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./../public/imgs/قسم-اعمال-البناء-و-التشيد-2.webp");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
