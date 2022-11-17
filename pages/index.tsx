@@ -233,7 +233,7 @@ function App() {
               </h3>
             </div>
           </div>
-          <MainButton url="/services" text="تعرف علينا اكثر" />
+          <MainButton url="/team" text="تعرف علي الفريق" />
         </div>
       </main>
     </div>
