@@ -39,6 +39,15 @@ const NavBar = () => {
               <NavLink
                 activeClassName="text-orange-500"
                 className="p-2 hover:text-orange-500 mx-1 "
+                href="/team"
+              >
+                فريق العمل
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                activeClassName="text-orange-500"
+                className="p-2 hover:text-orange-500 mx-1 "
                 href="/contact"
               >
                 تواصل معنا
