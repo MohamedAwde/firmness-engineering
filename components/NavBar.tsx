@@ -48,6 +48,15 @@ const NavBar = () => {
               <NavLink
                 activeClassName="text-orange-500"
                 className="p-2 hover:text-orange-500 mx-1 "
+                href="/equipments"
+              >
+                المعدات
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                activeClassName="text-orange-500"
+                className="p-2 hover:text-orange-500 mx-1 "
                 href="/contact"
               >
                 تواصل معنا
@@ -86,6 +95,26 @@ const NavBar = () => {
                 href="/services"
               >
                 خدماتنا
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                onClick={() => setShowNavBar(!showNavBar)}
+                activeClassName="text-orange-500"
+                className="p-2 hover:text-orange-500 mx-1 "
+                href="/team"
+              >
+                فريق العمل
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                onClick={() => setShowNavBar(!showNavBar)}
+                activeClassName="text-orange-500"
+                className="p-2 hover:text-orange-500 mx-1 "
+                href="/equipments"
+              >
+                المعدات
               </NavLink>
             </li>
             <li>
