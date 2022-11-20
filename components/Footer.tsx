@@ -34,6 +34,12 @@ const Footer: React.FC = () => {
               <Link href="/services">خدماتنا</Link>
             </li>
             <li>
+              <Link href="/team">فريق العمل</Link>
+            </li>
+            <li>
+              <Link href="/equipments">المعدات</Link>
+            </li>
+            <li>
               <Link href="/contact">تواصل معنا</Link>
             </li>
           </ul>
@@ -41,12 +47,9 @@ const Footer: React.FC = () => {
       </div>
       <div className="border-t border-gray-50 text-center py-4 mt-4">
         <p>
-          شركة فيرمنس للمقاولات - كل الحقوق محفوظة©{new Date().getFullYear()} تم
+          شركة فيرمنس الهندسية - كل الحقوق محفوظة©{new Date().getFullYear()} تم
           التصميم بواسطة
-          <a
-            href="https://mohamedawde.github.io/portfolio-ar/"
-            target={"_blank"}
-          >
+          <a href="https://mohamedawde.com/" target={"_blank"}>
             {" "}
             محمد عوض
           </a>
