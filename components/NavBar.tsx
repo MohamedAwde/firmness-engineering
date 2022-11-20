@@ -101,7 +101,7 @@ const NavBar = () => {
               <NavLink
                 onClick={() => setShowNavBar(!showNavBar)}
                 activeClassName="text-orange-500"
-                className="p-2 hover:text-orange-500 mx-1 "
+                className=" hover:text-orange-500 p-2  block"
                 href="/team"
               >
                 فريق العمل
@@ -111,7 +111,7 @@ const NavBar = () => {
               <NavLink
                 onClick={() => setShowNavBar(!showNavBar)}
                 activeClassName="text-orange-500"
-                className="p-2 hover:text-orange-500 mx-1 "
+                className=" hover:text-orange-500 p-2  block"
                 href="/equipments"
               >
                 المعدات
